@@ -8,12 +8,14 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet" >
     <!-- CSS -->
     <link href="./css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <!--  Header -->
     <header>
-        <nav class="navbar navbar-light shadow navbar-expand-lg">
+        <nav class="navbar navbar-light shadow navbar-expand-lg fixed-top bg-light" >
             <a href="#" class="navbar-brand align-self-center ms-5"><img src="assets/tetine.svg" alt="tetine"><span class="align-middle">BB <span style="color:#db7b6b"> Préma</span></span></a>
 
             <button class="navbar-toggler  me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +25,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav text-center" >
+                <ul class="navbar-nav text-center text-uppercase fs-6" >
                     <li class="nav-item">
                         <a href="#" class="nav-link">L'association</a>
                     </li>
@@ -45,34 +47,34 @@
     <main class="container-fluid p-0">
 
         <section class="row">
-            <img src="./assets/background.jpg" alt="bbprema" class="img-fluid">
-            <article class="introduction p-4" >
+            <img src="./assets/background.jpg" alt="bbprema">
+            <article class="introduction p-4 mb-5" >
                 <h1>En France, 1 bébé prématuré naît toutes les 8 minutes</h1>
                 <br>
-                <p>
+                <p class="fs-4">
                     BB Préma se bat pour donner à tous les enfants prématurés les meilleures chances de bien grandir
-                    <ul>
+                    <ul class="fs-5">
                         <li>Nous soutenons les familles</li>
                         <li>Nous travaillons avec les équipes médicales</li>
                         <li>Nous portons la voix des familles auprès des pouvoirs publics et défendons leurs droits</li>
                     </ul>
                 </p>
-                <button class="btn">Nous soutenir</button>
+                <button class="btn fs-6">Nous soutenir</button>
+                <button class="btn event fs-6">Voir nos êvenements</button>
            </article>
         </section>
 
         <section class="row">
 
-            <article class="informations p-4">
-                <h2>Notre association</h1>
-                <p>BB Préma se bat pour donner à tous les enfants prématurés les meilleures chances de bien grandir.
-                    Depuis 2004, nous avons offert notre soutien à plus de 650.000 familles.</p>
+            <article class="informations p-4 mb-5">
+                <h1 class="association">Notre association</h1>
+                <p>Depuis 2004, nous avons offert notre soutien à plus de 650.000 familles.</p>
                     <div class="card shadow  mb-4">
-                        <div class="card-body p-1">
-                            <img src='./assets/iconfamily.jpg' alt="family" width="100px" class="float-start" />
+                        <div class="card-body p-1 text-center">
+                            <img src='./assets/iconfamily.jpg' alt="family"  />
                             <h3 class="card-title">Aider et soutenir les familles</h5>
-                            <p class="card-text ">
-                                <ul class="text-center">
+                            <p class="card-text">
+                                <ul class="p-0">
                                     <li>Permanence téléphonique</li>
                                     <li>Forte présence sur le web</li>
                                     <li>Guide de conseils</li>
@@ -82,11 +84,11 @@
                         </div>
                       </div>
                       <div class="card shadow mb-4">
-                        <div class="card-body p-1">
-                            <img src='./assets/iconmedecin.jpg' alt="family" width="100px" class="float-start" />
+                        <div class="card-body p-1 text-center">
+                            <img src='./assets/iconmedecin.jpg' alt="family" />
                             <h3 class="card-title">Dialoguer avec les équipes médicales</h5>
-                            <p class="card-text ">
-                                <ul class="text-center">
+                            <p class="card-text">
+                                <ul class="p-0">
                                     <li>Formation annuelle</li>
                                     <li>Livret "l'enfant prématuré"</li>
                                     <li>Participation à des groupes de réflexion</li>
@@ -95,11 +97,11 @@
                         </div>
                       </div>
                       <div class="card shadow mb-4">
-                        <div class="card-body p-1">
-                            <img src='./assets/iconpublic.jpg' alt="family" width="100px" class="float-start" />
+                        <div class="card-body p-1 text-center">
+                            <img src='./assets/iconpublic.jpg' alt="public"  />
                             <h3 class="card-title">Sensibiliser les pouvoirs publics</h5>
-                            <p class="card-text ">
-                                <ul class="text-center">
+                            <p class="card-text">
+                                <ul class="p-0">
                                     <li>Allongement du congé maternité</li>
                                     <li>Membre fondateur de l'EFCNI</li>
                                     <li>Collectif Prématuré</li>
@@ -111,7 +113,7 @@
             </article>
 
             <article>
-                <h2>Ils nous soutiennent</h1>
+                <h1>Ils nous soutiennent</h1>
                     <ul class="text-center">
                         <li><img src="./assets/Gallia.png" class="img-thumbnail w-25 mb-4" alt="Gallia"></li>
                         <li><img src="./assets/pampers.png" class="img-thumbnail w-25 mb-4" alt="Pampers"></li>
@@ -127,7 +129,18 @@
 
 
 
+
     </main>
+
+    
+    <footer class="d-flex justify-content-center">
+        <ul class="text-center">
+            <li>Mentions légales</li>
+            <li>Nous contacter</li>
+            <li>BB PREMA - Tous droits réservés</li>
+        </ul>
+        
+    </footer>
 
     <!-- Bootstrap 5 -->
     <script src="./js/bootstrap.min.js"></script>
