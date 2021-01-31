@@ -1,3 +1,7 @@
+*{
+    font-size: 16px;
+}
+
 @font-face {
     font-family: 'pacificoregular';
     src: url('../assets/fonts/pacifico-webfont.eot');
@@ -9,6 +13,60 @@
     font-style: normal;
 
 }
+
 .navbar-brand{
     font-family: 'pacificoregular';
 }
+
+nav > ul > li {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+article.introduction {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'pacificoregular','sans-serif';
+    color:#dc7f6f;
+    text-align: center;
+}
+h2{
+    color:#dc7f6f;
+    text-align: center;
+}
+h3{
+
+    font-size: 1.3rem;
+}
+
+p{
+    font-size: 1.3rem;
+
+}
+
+.btn{
+    font-size: 1rem;
+    background-color: #dc7f6f;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.informations{
+    background-color:#faedea;
+}
+.informations > p{
+    text-align: center;
+    color:#e6a498;
+}
+
+/*
+.introduction {
+ background-color:#f0c8c1;
+}*/
