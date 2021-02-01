@@ -4,6 +4,15 @@
  
 
 }
+a{
+    text-decoration: none;
+    color: #e6a498;
+}
+footer > a:hover{
+    font-weight: bold;
+    color: #e6a498;
+}
+
 @font-face {
     font-family: 'pacificoregular';
     src: url('../assets/fonts/pacifico-webfont.eot');
@@ -82,11 +91,11 @@ h2{
 }
 
 .informations{
-    background-color:#faedea;
+    background-color:#f8f8f8;
 }
 .informations > p{
     text-align: center;
-    color:#dc7f6f;
+    columns: #999999;;
 }
 footer{
     background-color: #faedea;
@@ -105,3 +114,13 @@ footer{
 .container-fluid{
     overflow: hidden;
     }
+.parallax{
+    background-image: url("../assets/parallax.png");
+
+    /* Set a specific height */
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
