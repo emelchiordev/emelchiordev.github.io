@@ -4,6 +4,7 @@
  
 
 }
+
 a{
     text-decoration: none;
     color: #e6a498;
@@ -22,7 +23,6 @@ footer > a:hover{
          url('../assets/font/pacifico-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 .nav-item{
@@ -40,6 +40,7 @@ section{
 h1{
     font-size: 2rem;
 }
+
 .association{
     color:#e6a498;
 
@@ -48,6 +49,7 @@ h1{
 .introduction > p {
     color:#333333;
 }
+
 .introduction > ul > li {
     color:#999999;
 }
@@ -57,12 +59,10 @@ h1{
 
 }
 
-
 ul {
     list-style-type: none;
     
 }
-
 
 article.introduction {
     text-align: center;
@@ -73,17 +73,18 @@ h1 {
     color:#dc7f6f;
     text-align: center;
 }
+
 h2{
     color:#dc7f6f;
     text-align: center;
 }
-
 
 .btn{
     background-color: #dc7f6f;
     color: #FFF;
     text-transform: uppercase;
 }
+
 .event{
     background-color: #fff;
     border : 1px solid #dc7f6f;
@@ -93,31 +94,27 @@ h2{
 .informations{
     background-color:#f8f8f8;
 }
+
 .informations > p{
     text-align: center;
     columns: #999999;;
 }
+
 footer{
     background-color: #faedea;
 
 }
 
-
 .navbar{
     transition: top 0.3s;
 }
-/*
-.introduction {
- background-color:#f0c8c1;
-}*/
 
 .container-fluid{
     overflow: hidden;
     }
+
 .parallax{
     background-image: url("../assets/parallax.png");
-
-    /* Set a specific height */
     height: 500px;
     background-attachment: fixed;
     background-position: center;

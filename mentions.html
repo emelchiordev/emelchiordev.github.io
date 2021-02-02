@@ -112,13 +112,37 @@ Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank
     </main>
 
     
-    <footer class="d-flex justify-content-center">
+    <footer class="d-flex justify-content-center text-uppercase">
         <ul class="text-center">
-            <li>Mentions légales</li>
-            <li>Nous contacter</li>
+            <li><a href="./mentions.html">Mentions légales</a></li>
+            <li><a href="#" data-bs-toggle="modal" data-bs-target="#contact">Nous contacter</a></li>
             <li>BB PREMA - Tous droits réservés</li>
         </ul>
-        
+
+       <!-- Modal -->
+        <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contact" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nous contacter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+                            <label for="mail" class="form-label">Votre adresse email</label>
+                            <input type="email" class="form-control" id="mail"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Votre message</label>
+                            <textarea class="form-control" id="message" rows="5"> </textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Bootstrap 5 -->

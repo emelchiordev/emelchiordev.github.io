@@ -45,11 +45,13 @@
        <section class="p-5 mt-5">
             <h1 class="mb-5">Qui sommes nous ?</h1>
             <h2>BB PREMA A POUR MISSION D’AMÉLIORER LA QUALITÉ DE VIE DES ENFANTS PRÉMATURÉS EN OFFRANT UN APPUI PSYCHOLOGIQUE ET FINANCIER À LEURS PARENTS.</h2>
+            <img src="assets/images4.jpg" alt="BBPREMA Images4" class="img-fluid">
             <p>C’est le seul organisme qui vient en aide aux parents d’enfants nés prématurément. 
                 Or, chaque année, 8 % des naissances surviennent avant terme. L’organisme créé en 2004 par des parents d’enfants prématurés, 
                 l’association est soutenue par des médecins, des infirmières et d’autres intervenants œuvrant en néonatalogie.
             </p>
             <h2>BB PREMA VEUT :</h2>
+            <img src="assets/images5.jpg" alt="BBPREMA Images5" class="img-fluid">
             <ul class="p-0">
                 <li class="mb-3">
                     Soutenir les parents vivant la prématurité de leur enfant en favorisant le dialogue entre l’équipe soignante et les familles afin de faciliter le traitement de l’enfant. 
@@ -77,13 +79,37 @@
     </main>
 
     
-    <footer class="d-flex justify-content-center">
+    <footer class="d-flex justify-content-center text-uppercase">
         <ul class="text-center">
-            <li>Mentions légales</li>
-            <li>Nous contacter</li>
+            <li><a href="./mentions.html">Mentions légales</a></li>
+            <li><a href="#" data-bs-toggle="modal" data-bs-target="#contact">Nous contacter</a></li>
             <li>BB PREMA - Tous droits réservés</li>
         </ul>
-        
+
+       <!-- Modal -->
+        <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contact" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nous contacter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="text-center">
+                        <div class="mb-3">
+                            <label for="mail" class="form-label">Votre adresse email</label>
+                            <input type="email" class="form-control" id="mail"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Votre message</label>
+                            <textarea class="form-control" id="message" rows="5"> </textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Bootstrap 5 -->
