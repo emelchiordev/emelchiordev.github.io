@@ -125,3 +125,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
